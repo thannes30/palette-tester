@@ -1,0 +1,93 @@
+
+body {
+   background-color: white;
+   font-family: 'helvetica', sans-serif;
+}
+
+h1 {
+   text-align: center;
+   font-size: 50px;
+   color: darkgrey;
+}
+
+.random-palettes {
+  margin: 0 auto;
+  width: 175px;
+  height: 35px;
+  text-align: center;
+  background-color:darkgrey;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  padding-top: 17px;
+}
+
+h4.random-palettes{
+  margin-top: 10px;
+
+}
+
+.random-palettes:hover{
+  background-color:lightgrey;
+  width: 185px;
+  -moz-box-shadow:    5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  box-shadow:         5px 5px 5px #ccc;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.palettes {
+   background-color: darkgrey;
+   width: 25%;
+   float: left;
+   margin-bottom: 10px;
+   min-height:90px;
+}
+
+.title {
+   clear: both;
+   font-size: 12px;
+   margin-top: 40px;
+   margin-left: 3px;
+}
+
+.creator {
+   font-size: 12px;
+   margin-bottom: 20px;
+}
+
+.colors {
+   margin: 0 auto;
+
+}
+
+.hue {
+   height: 33px;
+   width: 33px;
+   float: left;
+   border: solid 1px lightgrey;
+   margin: 23px 0 0 2px;
+}
+
+.color-box {
+   height: 85%;
+   width: 85%;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: 1;
+   margin-bottom: 40px;
+}
+
+
+.color-strip {
+   float: left;
+   z-index: 1;
+   height: 100%;
+}
+
