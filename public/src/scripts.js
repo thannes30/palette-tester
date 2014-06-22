@@ -68,7 +68,7 @@ function displayPalettes(data){
       colorsDiv.click(displayColorBox)
 
       var title = data[i].title;
-      var titleDiv = $('<div>').addClass('title').html('Title: ' + title);
+      var titleDiv = $('<div>').addClass('title').html(title);
       $(palettesDiv).append(titleDiv);
 
    };
